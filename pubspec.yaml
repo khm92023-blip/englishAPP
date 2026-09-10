@@ -1,0 +1,40 @@
+name: english_buddy_app
+description: "تطبيق تعليمي تفاعلي لتعليم اللغة الإنجليزية لطلاب الصف الأول حتى الرابع"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # إدارة الحالة
+  flutter_riverpod: ^2.5.1
+
+  # التنقل بين الشاشات
+  go_router: ^14.2.0
+
+  # التخزين المحلي (المستوى، التقدم، النجوم)
+  shared_preferences: ^2.2.3
+
+  # نطق الكلمات الإنجليزية صوتيًا
+  flutter_tts: ^4.0.2
+
+  # خطوط ودّية للأطفال (عربي + إنجليزي)
+  google_fonts: ^6.2.1
+
+  # احتفال عند إنهاء الدرس/الوحدة
+  confetti: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
